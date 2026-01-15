@@ -176,9 +176,8 @@ class ChatBot:
         self.conversation_history.append({"role": role, "content": content})
     
     def clear_history(self):
-        """Clear conversation history and KV cache."""
+        """Clear conversation history."""
         self.conversation_history = []
-        self.past_key_values = None
         print("✓ Conversation history cleared.\n")
     
     def toggle_streaming(self):
