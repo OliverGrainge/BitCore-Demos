@@ -1,0 +1,17 @@
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+gradio>=4.0.0
+psutil>=5.9.0
+tqdm>=4.65.0
+
+# Image/video processing (for GIF conversion script)
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.8
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# BitCore and BitOps are installed separately from git:
+# pip install git+https://github.com/olivergrainge/BitCore.git
+# pip install git+https://github.com/OliverGrainge/BitOps.git  # Optional, for accelerated inference
+
