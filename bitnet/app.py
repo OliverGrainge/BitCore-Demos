@@ -114,7 +114,7 @@ class BitNetChatApp:
         self.model_memory = 0
         
         # Generation settings
-        self.max_new_tokens = 128
+        self.max_new_tokens = 1024
         self.temperature = 0.7
         self.top_p = 0.9
         
